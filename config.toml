@@ -2,3 +2,21 @@ title = "My New Hugo Site"
 baseURL = "http://example.org/"
 languageCode = "en-us"
 theme = "forty"
+
+[params]
+    title = "Nicola Timson"
+    major = "Nicola Timson"
+    subtitle = "Lorem Ipsum"
+    subtitleline2 = "2nd line"
+    bannerCTA = "Get Started"
+
+    [params.author]
+      firstname = "Nicola"
+      lastname = "Timson"
+
+    [params.social]
+      twitter = "https://twitter.com/_nixxi"
+      # facebook = "facebook"
+      # instagram = "instagram"
+      # github = "github"
+      # linkedin = "linkedin"
