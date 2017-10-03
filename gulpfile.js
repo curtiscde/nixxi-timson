@@ -7,3 +7,8 @@ gulp.task('deploy', function() {
       "remoteUrl": "git@github.com:curttimson/nixxi-timson.git"
     }));
 });
+
+gulp.task('copy-hugo-theme', function(){
+  return gulp.src('./node_modules/hugo-theme-forty/**/*')
+          .pipe(gulp.dest('themes/forty'));
+});
