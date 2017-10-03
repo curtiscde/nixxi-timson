@@ -1,5 +1,5 @@
 ---
-title: Category C
+title: KS3 Student Outcomes
 description: Lorem Ipsum
 slug: category-c
 listimage: images/category-c.jpg

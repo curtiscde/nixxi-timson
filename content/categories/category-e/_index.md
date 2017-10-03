@@ -1,5 +1,5 @@
 ---
-title: Category E
+title: Collaboration With Charlotte Burton
 description: Lorem Ipsum
 slug: category-e
 listimage: images/category-e.jpg

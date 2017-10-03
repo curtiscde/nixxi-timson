@@ -1,5 +1,5 @@
 ---
- title: Category A
+ title: Classroom Displays
  description: Lorem Ipsum
  slug: category-a
  listimage: images/category-a.jpg
