@@ -15,6 +15,9 @@
   "bugs": {
     "url": "https://github.com/curttimson/nixxi-timson/issues"
   },
+  "dependencies": {
+    "hugo-theme-forty": "git@github.com:curttimson/hugo-theme-forty.git#0.5.0"
+  },
   "homepage": "https://github.com/curttimson/nixxi-timson#readme",
   "devDependencies": {
     "gulp": "^3.9.1",
