@@ -1,6 +1,6 @@
 {
   "name": "nixxi-timson",
-  "version": "0.2.2",
+  "version": "0.3.0",
   "description": "Nixxi Timson Portfolio Website",
   "main": "gulpfile.js",
   "scripts": {
@@ -16,7 +16,7 @@
     "url": "https://github.com/curttimson/nixxi-timson/issues"
   },
   "dependencies": {
-    "hugo-theme-forty": "git@github.com:curttimson/hugo-theme-forty.git#0.5.0"
+    "hugo-theme-forty": "git@github.com:curttimson/hugo-theme-forty.git#0.9.0"
   },
   "homepage": "https://github.com/curttimson/nixxi-timson#readme",
   "devDependencies": {
