@@ -1,10 +1,10 @@
 {
   "name": "nixxi-timson",
-  "version": "0.3.0",
+  "version": "0.4.0",
   "description": "Nixxi Timson Portfolio Website",
   "main": "gulpfile.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "karma start karma.conf.js"
   },
   "repository": {
     "type": "git",
@@ -16,11 +16,17 @@
     "url": "https://github.com/curttimson/nixxi-timson/issues"
   },
   "dependencies": {
+    "angular": "^1.6.6",
     "hugo-theme-forty": "git@github.com:curttimson/hugo-theme-forty.git#0.9.0"
   },
   "homepage": "https://github.com/curttimson/nixxi-timson#readme",
   "devDependencies": {
+    "angular-mocks": "^1.6.6",
     "gulp": "^3.9.1",
-    "gulp-gh-pages": "^0.5.4"
+    "gulp-gh-pages": "^0.5.4",
+    "jasmine-core": "^2.8.0",
+    "karma": "^1.7.1",
+    "karma-chrome-launcher": "^2.2.0",
+    "karma-jasmine": "^1.1.0"
   }
 }

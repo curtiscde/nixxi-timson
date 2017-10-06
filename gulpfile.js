@@ -12,3 +12,8 @@ gulp.task('copy-hugo-theme', function(){
   return gulp.src('./node_modules/hugo-theme-forty/**/*')
           .pipe(gulp.dest('themes/forty'));
 });
+
+gulp.task("copy-npm-files", function () {
+    return gulp.src(['./node_modules/angular/angular.min.js'])
+        .pipe(gulp.dest('./static/npm/'))
+});
