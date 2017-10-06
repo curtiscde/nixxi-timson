@@ -5,6 +5,7 @@ slug: ks4-and-btec-student-outcomes
 listimage: images/category-d.jpg
 coverimage: images/category-d.jpg
 subtitle: Lorem Ipsum2
+flickrid: 72157688211210616
 ---
 Developing their responses to Stanley Spencer, I encouraged my BTEC students to work collaboratively to produce an inspired mixed media Spencer piece. Using colour pop, we replicated Stanley Spencer's mark making and theme but using a 'colour pop' and black and white theme.
 
