@@ -1,7 +1,7 @@
 ---
  title: Classroom Displays
  description: Lorem Ipsum
- slug: category-a
+ slug: classroom-displays
  listimage: images/category-a.jpg
  coverimage: images/category-a.jpg
  subtitle: Sub title for Category A

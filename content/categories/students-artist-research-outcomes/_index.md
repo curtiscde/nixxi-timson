@@ -1,7 +1,7 @@
 ---
 title: Students Artist Research Outcomes
 description: Lorem Ipsum
-slug: category-b
+slug: students-artist-research-outcomes
 listimage: images/category-b.jpg
 coverimage: images/category-b.jpg
 ---
