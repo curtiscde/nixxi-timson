@@ -10,6 +10,8 @@ theme = "forty"
     subtitle = "Lorem Ipsum"
     subtitleline2 = "2nd line"
     bannerCTA = "View Portfolio"
+    copyrightText = "Nicola Timson"
+    googleAnalyticsId = "UA-107434352-2"
 
     [params.author]
       firstname = "Nicola"
