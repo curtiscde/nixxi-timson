@@ -17,7 +17,8 @@
   },
   "dependencies": {
     "angular": "^1.6.6",
-    "hugo-theme-forty": "git@github.com:curttimson/hugo-theme-forty.git#0.12.0"
+    "hugo-theme-forty": "git@github.com:curttimson/hugo-theme-forty.git#0.12.0",
+    "unitegallery": "^1.7.28"
   },
   "homepage": "https://github.com/curttimson/nixxi-timson#readme",
   "devDependencies": {
