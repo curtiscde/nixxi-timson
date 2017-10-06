@@ -41,7 +41,8 @@
 
       return {
         getFlickrApiUrl: getFlickrApiUrl,
-        parseFlickrResponse: parseFlickrResponse
+        parseFlickrResponse: parseFlickrResponse,
+        getFlickrAlbumData: getFlickrAlbumData
       };
 
     });
