@@ -9,7 +9,7 @@ theme = "forty"
     coverimageurl = "images/cover.jpg"
     subtitle = "Lorem Ipsum"
     subtitleline2 = "2nd line"
-    bannerCTA = "Get Started"
+    bannerCTA = "View Portfolio"
 
     [params.author]
       firstname = "Nicola"
