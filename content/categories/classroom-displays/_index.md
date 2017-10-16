@@ -5,7 +5,7 @@
  listimage: images/category-a.jpg
  coverimage: images/category-a.jpg
  subtitle: Lorem Ipsum2
- flickrid: 72157686321315123
+ flickrid: '72157686321315123'
 ---
 
 Classroom displays produced to promote collaborative learning and effective assessments.

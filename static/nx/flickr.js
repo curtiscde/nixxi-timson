@@ -3,11 +3,6 @@
   angular.module('flickrApi', [])
     .factory('flickrApiService', function($http, $q){
 
-      var flickr = {
-         API_KEY: '264fbe68492fe1c3e4e1696f67112bfa',
-         USER_ID: '152071786@N03'
-       };
-
        var getFlickrApiUrl = function(apiKey, flickrId, userId){
          return "https://api.flickr.com/services/rest/?method=flickr.photosets.getPhotos"
                     + "&api_key=" + apiKey
@@ -33,16 +28,29 @@
        var getFlickrAlbumData = function(flickrUrl){
          var defer = $q.defer();
          $http.get(flickrUrl)
-            .success(function(data){
+            .then(function(data){
               defer.resolve(data);
             });
           return defer.promise;
        };
 
+       var loadFlickrData = function(apiKey, flickrId, userId){
+         var url = getFlickrApiUrl(apiKey, flickrId, userId);
+
+         var defer = $q.defer();
+
+         getFlickrAlbumData(url).then(function(data){
+           defer.resolve(parseFlickrResponse(data));
+         });
+
+         return defer.promise;
+       };
+
       return {
         getFlickrApiUrl: getFlickrApiUrl,
         parseFlickrResponse: parseFlickrResponse,
-        getFlickrAlbumData: getFlickrAlbumData
+        getFlickrAlbumData: getFlickrAlbumData,
+        loadFlickrData: loadFlickrData
       };
 
     });
