@@ -3,8 +3,12 @@
   angular.module('photoUI', [])
     .factory('photoUIService', function(){
 
-      return {
+      var bindPhotoDataToHTML = function(photoData){
+        
+      };
 
+      return {
+        bindPhotoDataToHTML: bindPhotoDataToHTML
       };
     });
 
