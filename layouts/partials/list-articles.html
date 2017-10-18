@@ -1,3 +1,4 @@
 <section id="two" class="spotlights" ng-app="nx" ng-controller="mainController">
+  {{ .Params.flickrId }}
   <div id="gallery" class="flickr-gallery" flickrid="{{ .Params.flickrId }}" style="display:none;" flickrlist></div>
 </section>

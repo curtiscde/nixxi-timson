@@ -9,7 +9,7 @@
     .directive('flickrlist', function(flickrApiService){
       return {
         scope: {
-          flickrid: '=flickrid'
+          flickrid: '@flickrid'
         },
         link: function(scope, element, attrs){
 
@@ -18,9 +18,11 @@
              USER_ID: '152071786@N03'
            };
 
-          flickrApiService.loadFlickrData(flickr.API_KEY, scope.flickrid, flickr.USER_ID, function(flickrData){
-            console.log(flickrData);
-          });
+           var url = flickrApiService.getFlickrApiUrl(flickr.API_KEY, scope.flickrid, flickr.USER_ID);
+
+           flickrApiService.getFlickrAlbumData(url).then(function(flickrResponse){
+             console.log(flickrApiService.parseFlickrResponse(flickrResponse.data));
+           });
 
         }
       }

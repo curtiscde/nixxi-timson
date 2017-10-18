@@ -34,23 +34,10 @@
           return defer.promise;
        };
 
-       var loadFlickrData = function(apiKey, flickrId, userId){
-         var url = getFlickrApiUrl(apiKey, flickrId, userId);
-
-         var defer = $q.defer();
-
-         getFlickrAlbumData(url).then(function(data){
-           defer.resolve(parseFlickrResponse(data));
-         });
-
-         return defer.promise;
-       };
-
       return {
         getFlickrApiUrl: getFlickrApiUrl,
         parseFlickrResponse: parseFlickrResponse,
-        getFlickrAlbumData: getFlickrAlbumData,
-        loadFlickrData: loadFlickrData
+        getFlickrAlbumData: getFlickrAlbumData
       };
 
     });
