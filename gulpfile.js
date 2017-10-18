@@ -13,7 +13,16 @@ gulp.task('copy-hugo-theme', function(){
           .pipe(gulp.dest('themes/forty'));
 });
 
-gulp.task("copy-npm-files", function () {
-    return gulp.src(['./node_modules/angular/angular.min.js'])
-        .pipe(gulp.dest('./static/npm/'))
+
+gulp.task('copy-npm-files', ['copy-npm-files-angular', 'copy-npm-files-unitegallery']);
+
+
+gulp.task('copy-npm-files-angular', function(){
+  return gulp.src(['./node_modules/angular/angular.min.js'])
+      .pipe(gulp.dest('./static/npm/'))
+});
+
+gulp.task("copy-npm-files-unitegallery", function () {
+    return gulp.src(['./node_modules/unitegallery/dist/**/*'])
+        .pipe(gulp.dest('./static/npm/unitegallery'))
 });
