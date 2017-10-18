@@ -25,9 +25,11 @@
              var photoData = flickrApiService.parseFlickrResponse(flickrResponse.data);
              var imgContainer = photoUIService.parsePhotoDataToHTML(photoData);
 
-             angular.element(element).append(imgContainer.innerHTML);
+             angular.element(imgContainer).attr('id', 'unitegallerylist');
 
-             
+             angular.element(element).append(imgContainer);
+
+             angular.element('#unitegallerylist').unitegallery();
 
            });
 
