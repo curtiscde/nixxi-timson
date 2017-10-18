@@ -15,9 +15,9 @@ describe('service: photoUI', function(){
                   { title: 'c', thumbnailsrc: 'https://farm5.staticflickr.com/4374/36695091770_919d940901.jpg', imgsrc: 'https://farm5.staticflickr.com/4374/36695091770_43450af389_o.jpg' }];
 
     var expected =  '<div>'
-                    + '<img alt="a" src="https://farm5.staticflickr.com/4375/36694607660_e3d1f831f9.jpg" data-image="https://farm5.staticflickr.com/4375/36694607660_fa924baa54_o.jpg" data-description="a" />'
-                    + '<img alt="b" src="https://farm5.staticflickr.com/4434/36920345302_2a584d3c22.jpg" data-image="https://farm5.staticflickr.com/4434/36920345302_e5f11135bf_o.jpg" data-description="b" />'
-                    + '<img alt="c" src="https://farm5.staticflickr.com/4374/36695091770_919d940901.jpg" data-image="https://farm5.staticflickr.com/4374/36695091770_43450af389_o.jpg" data-description="c" />'
+                    + '<img alt="a" src="https://farm5.staticflickr.com/4375/36694607660_e3d1f831f9.jpg" data-image="https://farm5.staticflickr.com/4375/36694607660_fa924baa54_o.jpg" data-description="a">'
+                    + '<img alt="b" src="https://farm5.staticflickr.com/4434/36920345302_2a584d3c22.jpg" data-image="https://farm5.staticflickr.com/4434/36920345302_e5f11135bf_o.jpg" data-description="b">'
+                    + '<img alt="c" src="https://farm5.staticflickr.com/4374/36695091770_919d940901.jpg" data-image="https://farm5.staticflickr.com/4374/36695091770_43450af389_o.jpg" data-description="c">'
                     + '</div>';
 
     var actual = _photoUIService.parsePhotoDataToHTML(input).outerHTML;
