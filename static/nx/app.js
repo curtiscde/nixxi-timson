@@ -1,12 +1,12 @@
 (function(){
 
-  angular.module('nx', ['flickrApi'])
+  angular.module('nx', ['flickrApi', 'photoUI'])
     .controller('mainController', function(){
 
 
 
     })
-    .directive('flickrlist', function(flickrApiService){
+    .directive('flickrlist', function(flickrApiService, photoUIService){
       return {
         scope: {
           flickrid: '@flickrid'
@@ -22,8 +22,12 @@
 
            flickrApiService.getFlickrAlbumData(url).then(function(flickrResponse){
 
-             
+             var photoData = flickrApiService.parseFlickrResponse(flickrResponse.data);
+             var imgContainer = photoUIService.parsePhotoDataToHTML(photoData);
 
+             angular.element(element).append(imgContainer.innerHTML);
+
+             
 
            });
 
