@@ -21,7 +21,10 @@
            var url = flickrApiService.getFlickrApiUrl(flickr.API_KEY, scope.flickrid, flickr.USER_ID);
 
            flickrApiService.getFlickrAlbumData(url).then(function(flickrResponse){
-             console.log(flickrApiService.parseFlickrResponse(flickrResponse.data));
+
+             
+
+
            });
 
         }
