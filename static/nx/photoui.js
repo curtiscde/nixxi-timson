@@ -3,13 +3,18 @@
   angular.module('photoUI', [])
     .factory('photoUIService', function(){
 
-      var bindPhotoDataToHTML = function(photoData){
-        
+      var parsePhotoDataToHTML = function(photoData){
+
+        var div = document.createElement('div');
+
+
+
+        return div;
       };
 
       return {
-        bindPhotoDataToHTML: bindPhotoDataToHTML
+        parsePhotoDataToHTML: parsePhotoDataToHTML
       };
     });
 
-});
+})();
