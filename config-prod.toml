@@ -1,0 +1,11 @@
+languageCode = "en-us"
+title = "Nicola Timson"
+baseURL = "https://curttimson.github.io/nixxi-timson/"
+theme = "massively"
+
+[params.posts]
+    foldername = "post"
+
+[params.settings]
+    googleanalytics = "UA-107434352-1"
+    disqus = "hugo-massively"

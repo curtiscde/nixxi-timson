@@ -9,8 +9,8 @@ gulp.task('deploy', function() {
 });
 
 gulp.task('copy-hugo-theme', function(){
-  return gulp.src('./node_modules/hugo-theme-forty/**/*')
-          .pipe(gulp.dest('themes/forty'));
+  return gulp.src('./node_modules/hugo-theme-massively/**/*')
+          .pipe(gulp.dest('themes/massively'));
 });
 
 
