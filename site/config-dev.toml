@@ -1,0 +1,41 @@
+languageCode = "en-us"
+title = "Nicola Timson"
+baseURL = "http://localhost:1313/"
+theme = "massively"
+
+[params.posts]
+    foldername = "post"
+    pagesize = "6"
+    featuredpost = "false"
+
+[params.settings]
+    googleanalytics = "UA-107434352-2"
+    disqus = "hugo-massively"
+
+
+
+ # title = "My New Hugo Site"
+#baseURL = "https://curttimson.github.io/nixxi-timson/"
+#languageCode = "en-us"
+#theme = "forty"
+
+#[params]
+    #title = "Nicola Timson"
+    #major = "Nicola Timson"
+    #coverimageurl = "images/cover.jpg"
+    #subtitle = "Lorem Ipsum"
+    #subtitleline2 = "2nd line"
+    #bannerCTA = "View Portfolio"
+    #copyrightText = "Nicola Timson"
+    #googleAnalyticsId = "UA-107434352-2"
+
+    #[params.author]
+      #firstname = "Nicola"
+     # lastname = "Timson"
+
+    #[params.social]
+   #   twitter = "https://twitter.com/_nixxi"
+      # facebook = "facebook"
+      # instagram = "instagram"
+      # github = "github"
+  #    linkedin = "https://www.linkedin.com/in/nicola-timson-463506128/"
