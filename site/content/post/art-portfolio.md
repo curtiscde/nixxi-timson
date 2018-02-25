@@ -1,6 +1,6 @@
 +++
-title = 'My Art'
-slug = 'my-art'
+title = 'Art Portfolio'
+slug = 'art-portfolio'
 image = 'images/myart.jpg'
 date = "2018-02-25T14:57:00"
 description = 'For a period of time, my work focussed upon the relationship between text and image. Fascinated by the unspoken language of visual art, I leaned away from colour and began exploring monochrome paintings with relating phrases.'
