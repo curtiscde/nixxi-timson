@@ -1,6 +1,6 @@
 languageCode = "en-us"
 title = "Nicola Timson"
-baseURL = "https://nixxi.netlify.com/"
+baseURL = "https://nicolatimson.co.uk/"
 theme = "massively"
 
 [params.posts]
