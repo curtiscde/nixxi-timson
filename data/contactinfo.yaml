@@ -1,9 +1,7 @@
-contactformaction: 'post-action'
+contactformaction: 'https://formspree.io/contact@nicolatimson.co.uk'
 
 address:
-- line: '1234 Somewhere Road #87257'
-- line: 'Nashville, TN 00000-0000'
+- line: 'Lincolnshire'
+- line: 'United Kingdom'
 
-phone: '(800) 000-0000'
-
-email: 'someone@untitled.tld'
+email: 'contact@nicolatimson.co.uk'
