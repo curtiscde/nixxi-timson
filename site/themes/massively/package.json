@@ -1,39 +1,15 @@
 {
-  "_from": "git+ssh://git@github.com/curttimson/hugo-theme-massively.git#0.5.0",
-  "_id": "hugo-theme-massively@0.5.0",
-  "_inBundle": false,
-  "_location": "/hugo-theme-massively",
-  "_phantomChildren": {},
-  "_requested": {
-    "type": "git",
-    "raw": "hugo-theme-massively@git+ssh://git@github.com/curttimson/hugo-theme-massively.git#0.5.0",
-    "name": "hugo-theme-massively",
-    "escapedName": "hugo-theme-massively",
-    "rawSpec": "git+ssh://git@github.com/curttimson/hugo-theme-massively.git#0.5.0",
-    "saveSpec": "git+ssh://git@github.com/curttimson/hugo-theme-massively.git#0.5.0",
-    "fetchSpec": "ssh://git@github.com/curttimson/hugo-theme-massively.git",
-    "gitCommittish": "0.5.0"
-  },
-  "_requiredBy": [
-    "/"
-  ],
-  "_resolved": "git+ssh://git@github.com/curttimson/hugo-theme-massively.git#ddb2021f39fb5b7b9c576222ba861567cec90234",
-  "_spec": "hugo-theme-massively@git+ssh://git@github.com/curttimson/hugo-theme-massively.git#0.5.0",
-  "_where": "/Users/curtistimson/Documents/GitHub/nixxi-timson",
-  "author": {
-    "name": "Curtis Timson"
-  },
-  "bugs": {
-    "url": "https://github.com/curttimson/hugo-theme-massively/issues"
-  },
-  "bundleDependencies": false,
-  "deprecated": false,
+  "name": "hugo-theme-massively",
+  "version": "0.6.0",
   "description": "HTML5 UP theme Massively for Hugo",
-  "devDependencies": {
-    "gulp": "^3.9.1",
-    "gulp-gh-pages": "^0.5.4"
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "homepage": "https://github.com/curttimson/hugo-theme-massively#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/curttimson/hugo-theme-massively.git"
+  },
   "keywords": [
     "hugo",
     "hugo-theme",
@@ -41,15 +17,14 @@
     "html5up",
     "massively"
   ],
+  "author": "Curtis Timson",
   "license": "ISC",
-  "main": "index.js",
-  "name": "hugo-theme-massively",
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/curttimson/hugo-theme-massively.git"
+  "bugs": {
+    "url": "https://github.com/curttimson/hugo-theme-massively/issues"
   },
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "version": "0.5.0"
+  "homepage": "https://github.com/curttimson/hugo-theme-massively#readme",
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-gh-pages": "^0.5.4"
+  }
 }
