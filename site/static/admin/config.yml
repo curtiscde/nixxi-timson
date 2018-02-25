@@ -16,12 +16,17 @@ collections: # A list of collections the CMS should be able to edit
       - {label: "Image", name: "image", widget: "image", required: false}
       - {label: "Body", name: "body", widget: "markdown"}
 
-  - label: 'config'
+  - label: 'Config'
     name: 'configs'
     files:
       - name: 'social'
-        label: 'social links'
+        label: 'Social Links'
         file: 'site/data/social.yaml'
+        delete: false
         fields:
           - name: 'twitter'
-            label: 'twitter'
+            label: 'Twitter'
+          - name: 'linkedin'
+            label: 'LinkedIn'
+          - name: 'flickr'
+            label: 'Flickr'
