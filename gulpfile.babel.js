@@ -13,9 +13,8 @@ import inject from "gulp-inject";
 import replace from "gulp-replace";
 import cssnano from "cssnano";
 
-import requireDir from "require-dir";
+import ghPages from "gulp-gh-pages";
 
-requireDir('./gulp-tasks');
 
 const browserSync = BrowserSync.create();
 const hugoBin = `./bin/hugo.${process.platform === "win32" ? "exe" : process.platform}`;
@@ -101,3 +100,34 @@ function buildSite(cb, options) {
     }
   });
 }
+
+
+// Original tasks - pre-netlify
+
+gulp.task('deploy', function() {
+  return gulp.src('./public/**/*')
+    .pipe(ghPages({
+      "remoteUrl": "git@github.com:curttimson/nixxi-timson.git"
+    }));
+});
+
+gulp.task('copy-hugo-theme', function(){
+  return gulp.src('./node_modules/hugo-theme-massively/**/*')
+          .pipe(gulp.dest('themes/massively'));
+});
+
+
+gulp.task('copy-npm-files', [
+  'copy-npm-files-angular',
+  'copy-npm-files-unitegallery'
+]);
+
+gulp.task('copy-npm-files-angular', function(){
+  return gulp.src(['./node_modules/angular/angular.min.js'])
+      .pipe(gulp.dest('./static/npm/'))
+});
+
+gulp.task("copy-npm-files-unitegallery", function () {
+    return gulp.src(['./node_modules/unitegallery/dist/**/*'])
+        .pipe(gulp.dest('./static/npm/unitegallery'))
+});
