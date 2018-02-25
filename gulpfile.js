@@ -14,8 +14,10 @@ gulp.task('copy-hugo-theme', function(){
 });
 
 
-gulp.task('copy-npm-files', ['copy-npm-files-angular', 'copy-npm-files-unitegallery']);
-
+gulp.task('copy-npm-files', [
+  'copy-npm-files-angular',
+  'copy-npm-files-unitegallery'
+]);
 
 gulp.task('copy-npm-files-angular', function(){
   return gulp.src(['./node_modules/angular/angular.min.js'])

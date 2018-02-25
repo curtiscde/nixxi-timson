@@ -1,5 +1,4 @@
-# nixxi-timson
-Nixxi Timson Portfolio Website
+# Nicola Timson Portfolio Website
 
 ## Development Prerequisites
 

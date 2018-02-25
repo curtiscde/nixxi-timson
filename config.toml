@@ -5,6 +5,8 @@ theme = "massively"
 
 [params.posts]
     foldername = "post"
+    pagesize = "6"
+    featuredpost = "false"
 
 [params.settings]
     googleanalytics = "UA-107434352-2"
