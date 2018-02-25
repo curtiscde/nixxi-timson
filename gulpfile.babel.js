@@ -12,7 +12,6 @@ import svgmin from "gulp-svgmin";
 import inject from "gulp-inject";
 import replace from "gulp-replace";
 import cssnano from "cssnano";
-
 import ghPages from "gulp-gh-pages";
 
 
