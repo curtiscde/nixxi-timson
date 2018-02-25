@@ -14,8 +14,17 @@ gulp.task('copy-hugo-theme', function(){
 });
 
 
-gulp.task('copy-npm-files', ['copy-npm-files-angular', 'copy-npm-files-unitegallery']);
+gulp.task('copy-npm-files', [
+  'copy-npm-files-jquery',
+  'copy-npm-files-angular',
+  'copy-npm-files-unitegallery'
+]);
 
+
+gulp.task('copy-npm-files-jquery', function(){
+  return gulp.src(['./node_modules/jquery/dist/jquery.min.js'])
+      .pipe(gulp.dest('./static/npm/'))
+});
 
 gulp.task('copy-npm-files-angular', function(){
   return gulp.src(['./node_modules/angular/angular.min.js'])
