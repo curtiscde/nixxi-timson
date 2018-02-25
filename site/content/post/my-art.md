@@ -2,7 +2,7 @@
 title = 'My Art'
 slug = 'my-art'
 image = 'images/myart.jpg'
-date = "2018-02-25T14:55:00"
+date = "2018-02-25T14:57:00"
 description = 'For a period of time, my work focussed upon the relationship between text and image. Fascinated by the unspoken language of visual art, I leaned away from colour and began exploring monochrome paintings with relating phrases.'
 flickrid = '72157684960307052'
 +++
