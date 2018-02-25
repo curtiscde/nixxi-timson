@@ -4,7 +4,13 @@
   "description": "Nixxi Timson Portfolio Website",
   "main": "gulpfile.js",
   "scripts": {
-    "test": "karma start karma.conf.js"
+    "test": "karma start karma.conf.js",
+    "hugo": "gulp hugo",
+    "webpack": "gulp webpack",
+    "build": "gulp build",
+    "build-preview": "gulp build-preview",
+    "start": "gulp server",
+    "lint": "eslint src"
   },
   "repository": {
     "type": "git",
