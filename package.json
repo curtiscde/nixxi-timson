@@ -1,6 +1,6 @@
 {
   "name": "nixxi-timson",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Nixxi Timson Portfolio Website",
   "main": "gulpfile.js",
   "scripts": {
